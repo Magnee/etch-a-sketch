@@ -1,0 +1,20 @@
+
+.buttoncontainer {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.modeshow {
+  margin-left: 10px;
+}
+
+.gridcontainer {
+  border: 1px solid black;
+  display: grid;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.square {
+  background-color: white;
+}
