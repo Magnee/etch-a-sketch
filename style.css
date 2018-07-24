@@ -21,6 +21,7 @@ h1  {
   border: 1px solid black;
   box-shadow: 0 0 20 20 black;
   display: grid;
+  height: 600px;
   margin: 0 auto;
   width: 600px;
 }

@@ -33,6 +33,8 @@ function renewGrid() {
     gridcontainer.removeChild(gridcontainer.lastChild);
   }
   root = prompt("cells per side?", root);
+  root = (root > 125 ) ? 125 : root;
+  console.log(root);
   let newGrid = createGrid(root);
 }
 
